@@ -1,0 +1,50 @@
+{
+  "name": "vue3-vite-ant-design-admin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["vue3admin", "vueadmin", "admin", "vue3 setup",
+    "vue3-vite-ant-design-admin",
+    "vue3 vite", "vite"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "elt": "eslint --config .eslintrc.json --ext .js,.ts,vue src/** --no-error-on-unmatched-pattern",
+    "elt-fix": "eslint --config .eslintrc.json --fix --ext .ts,vue src/** --no-error-on-unmatched-pattern",
+    "e": "cypress open",
+    "e-ci": "cypress run",
+    "t": "jest"
+  },
+  "lint-staged": {
+    "*.{ts,vue}": "eslint --fix"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.1.2",
+    "axios": "^0.21.1",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.6",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.22",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-jest": "^26.6.3",
+    "cypress": "^7.1.0",
+    "eslint": "^7.24.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "jest": "^26.6.3",
+    "mockjs": "^1.1.0",
+    "typescript": "^4.2.4",
+    "vite": "^2.1.5",
+    "vite-plugin-style-import": "^0.9.2",
+    "vue-jest": "^5.0.0-alpha.7"
+  }
+}
