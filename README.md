@@ -110,3 +110,8 @@ $ yarn elt-fix
 
 ```
 
+## License
+
+[MIT]() license.
+
+Copyright (c) 2021-present @nmfox.com
