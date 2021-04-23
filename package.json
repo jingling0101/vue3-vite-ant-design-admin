@@ -5,6 +5,12 @@
   "keywords": ["vue3admin", "vueadmin", "admin", "vue3 setup",
     "vue3-vite-ant-design-admin",
     "vue3 vite", "vite"],
+  "authors": [
+    {
+      "name": "jingling0101",
+      "email": "admin@nmfox.com"
+    }
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
